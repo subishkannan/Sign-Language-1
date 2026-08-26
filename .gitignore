@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+mediapipe_env/
+
+# Local configuration and secrets
+.env
+
+# Generated application data
+uploads/*
+static/audio_cache/*
+static/models/*.h5
+training_data/*
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
